@@ -13,3 +13,5 @@ to run the benchmarks:
   make test
   ./test
 ```
+
+NOTE: the key and signature sizes are a bit larger than advertized in the paper, because the keys are elements mod 31, and the implementation just stores one element per Byte. Compressing the keys and signatures to store 8 field elements per 5 Bytes should be straightforward, but hasn't been done yet. 
