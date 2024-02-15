@@ -4,7 +4,7 @@ https://pqmayo.org/code/
 
 # MAYO
 
-Reference implementation of the MAYO signature scheme with the parameter set `n=62`, `m=60`, `o=6`, `k=10`, `q=31`.
+Implementation of the MAYO signature scheme with the parameter set `n=62`, `m=60`, `o=6`, `k=10`, `q=31`.
 
 The `E_{ij}` matrices are chosen as multiplication by `1,x,x^2,...,x^54` in the extension field `F_31[x]/(x^60 + x^2 + 3x+ 27)`.
 
