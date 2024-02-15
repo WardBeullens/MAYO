@@ -1,3 +1,7 @@
+**Note that this is a proof-of-concept implementation witten to accompany the original MAYO paper, with parameters and implementation details that are different from the MAYO submission to the NIST competition. 
+For an implementtion of the "official" MAYO scheme as submitted to the NIST competition please visit**
+https://pqmayo.org/code/ 
+
 # MAYO
 
 Reference implementation of the MAYO signature scheme with the parameter set `n=62`, `m=60`, `o=6`, `k=10`, `q=31`.
